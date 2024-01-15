@@ -237,6 +237,9 @@ TEST(TrieTest, MixedTest) {
     trie = trie.Remove(key);
   }
   auto trie_final = trie;
+  if (!trie_final.GetRoot()) {
+    std::cout << "Erased the trie" << std::endl;
+  }
 
   // verify trie_full
   for (uint32_t i = 0; i < 23333; i++) {
