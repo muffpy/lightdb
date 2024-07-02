@@ -1,5 +1,7 @@
 lightdb is a lightweight disk-oriented relational database written in C++ which implements some key components of a traditional RDBMS including: Buffer Pool Manager (for memory management), Hash Index (storage engine), Query Executors & Query Optimizer (operators & optimizer), and Concurrency Control.
 
+I created lightdb as a side-project in 2021 while learning database system at university and am in the process of migrating the code and docs to GitHub.
+
 It is based on Dr Andy Pavlo's (@[pavlo](https://www.cs.cmu.edu/~pavlo/)) BusTub database system template which is as simple as follows. The files inside `src` and `test` are empty and open to implementation using the super-useful `tools` and relevant `third_party` libraries.
 
 ```
@@ -49,8 +51,6 @@ bustub
     ├── wasm-bpt-printer
     └── wasm-shell
 ```
-
-I created lightdb as a side-project in 2021 while learning database system at university and am in the process of migrating the code and docs to GitHub.
 
 ## Build
 
