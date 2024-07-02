@@ -58,9 +58,9 @@ bustub
     └── wasm-shell
 ```
 
-The `src` and `test` directories are empty and provide a template to build a more complex database.
+The files inside `src` and `test` are empty and provide a template to build a more complex database.
 
-I started this as a side-project in 2021 while learning database system at university and am in the process of migrating the code and docs to GitHub.
+I finished building **lightdb** as a side-project in 2021 while learning database system at university and am in the process of migrating the code and docs to GitHub.
 
 ## Build
 
