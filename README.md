@@ -5,15 +5,7 @@ It is based on Dr Andy Pavlo's (@[pavlo](https://www.cs.cmu.edu/~pavlo/)) BusTub
 ```
 bustub
 ├── build_support
-│   ├── build-web-shell.sh
-│   ├── clang_format_exclusions.txt
-│   ├── cmake
-│   ├── cpplint.py
-│   ├── gtest_CMakeLists.txt.in
-│   ├── packages.sh
-│   ├── run_clang_format.py
-│   ├── run_clang_tidy.py
-│   └── run_clang_tidy_extra.py
+│   ├── ...
 ├── src
 │   ├── binder
 │   ├── buffer
